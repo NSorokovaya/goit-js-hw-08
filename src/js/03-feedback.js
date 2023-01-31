@@ -9,7 +9,7 @@ const STORAGE_KEY = "feedback-form-state";
 form.addEventListener('submit', onFormSubmit);
 textarea.addEventListener('input', throttle(onTextareaInput, 500));
 
-//populateTextArea();
+populateTextArea();
 
 function onFormSubmit(evt) {
       evt.preventDefault();
